@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:key="name"
+        android:summary="Your Name"
+        android:title="Name" />
+    <EditTextPreference
+        android:key="address"
+        android:summary="Your Address"
+        android:title="Address" />
+    <EditTextPreference
+        android:key="postcode"
+        android:summary="Your Postcode"
+        android:title="Postcode" />
+    <CheckBoxPreference
+        android:key="order"
+        android:summary="Are you sure you want to order these items?"
+        android:title="Order confirmation" />
+    <CheckBoxPreference
+        android:key="country"
+        android:summary="Do you live in Århus?"
+        android:title="Adress in Århus?" />
+
+</PreferenceScreen>
